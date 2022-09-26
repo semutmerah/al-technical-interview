@@ -1,0 +1,12 @@
+name: CI
+on:
+  push:
+    branches: [ roni ]
+jobs:
+  container-test-job:
+    runs-on: ubuntu-latest
+    container:
+      image: ppodgorsek/robot-framework:5.0.0
+      options: --shm-size=1g
+    steps:
+      - run: ls -la
