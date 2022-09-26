@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ppodgorsek/robot-framework:5.0.0
-      options: --shm-size=1g
+      options: --shm-size=1g  --user root
     steps:
       - name: 📚 Git Checkout
         uses: actions/checkout@v3
