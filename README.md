@@ -20,3 +20,7 @@ Simple, just run this from terminal
 ```
 $ robot tests/remove_cart_item_tests.robot
 ```
+
+
+https://user-images.githubusercontent.com/10476456/192323876-2cd5a3b2-1392-43fa-af9a-54cb8d4af532.mp4
+
