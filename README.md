@@ -1,7 +1,7 @@
 # al-technical-interview
 
 ## Why I Choose to using RobotFramework?
-Because I want to focus more on creating the test itself (that's what matter the most), rather than busy configuring the test framework. It also have a big community, so I can find answer easily for any problem that might happen during test development. It's open source nature also allow us to make changes to the framework code right away, if the need arise for that. We can also easily integrate it with CI/CD, like what I have here already integrated with github actions.
+Because I want to focus more on creating the test itself (that's what matter the most), rather than busy configuring the test framework. It also have a big community, so I can find answer easily for any problem that might happen during test development. It's open source nature also allow us to make changes to the framework code right away, if the need arise for that.
 
 ## PREREQUISITES
 
