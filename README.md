@@ -16,3 +16,7 @@ Because I want to focus more on creating the test itself (that's what matter the
   ```
 
 ## RUN IN LOCAL
+Simple, just run this from terminal
+```
+$ robot tests/remove_cart_item_tests.robot
+```
