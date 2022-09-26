@@ -9,4 +9,7 @@ jobs:
       image: ppodgorsek/robot-framework:5.0.0
       options: --shm-size=1g
     steps:
+      - name: 📚 Git Checkout
+        uses: actions/checkout@v3
       - run: ls -la
+      - run: robot tests/
