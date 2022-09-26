@@ -12,3 +12,4 @@ jobs:
         uses: joonvena/robotframework-docker-action@v1.0
         with:
           robot_tests_dir: ./
+      - run: ls -la
