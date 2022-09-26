@@ -11,4 +11,4 @@ jobs:
       - name: Robot Framework
         uses: joonvena/robotframework-docker-action@v1.0
         with:
-          robot_tests_dir:./
+          robot_tests_dir: ./
