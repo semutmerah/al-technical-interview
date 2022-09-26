@@ -3,13 +3,12 @@ on:
   push:
     branches: [ roni ]
 jobs:
-  container-test-job:
+  run-robotframework-test:
     runs-on: ubuntu-latest
-    container:
-      image: ppodgorsek/robot-framework:5.0.0
-      options: --shm-size=1g  --user root
     steps:
-      - name: 📚 Git Checkout
+      - name: Checkout
         uses: actions/checkout@v3
-      - run: ls -la
-      - run: robot tests/
+      - name: Robot Framework
+        uses: joonvena/robotframework-docker-action@v1.0
+        with:
+          robot_tests_dir:./
